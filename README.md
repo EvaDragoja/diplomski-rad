@@ -28,17 +28,17 @@ Deferred demosaicking framework omogućuje:
 - Podrška za .DNG ulazne slike (RAW Bayer)
 - Automatska konverzija u YUV i MP4
 - Demosaicking, white balance, gamma korekcija i upsampling na dekoderu
-- Detaljni logovi i metrika kodiranja
+- Logovi i metrika kodiranja
 
 ## Struktura projekta
 
 ```
 .
-├── artificial_encoder.py      # Kodiranje deferred pristupom
-├── artificial_decoder.py      # Dekodiranje deferred pristupom
+├── artificial_encoder.py      # Kodiranje umjetnim pristupom
+├── artificial_decoder.py      # Dekodiranje umjetnim pristupom
 ├── normal_coding.py           # Standardni workflow
-├── VIDEOS/DNG/                # Ulazne .DNG slike
-├── *.yuv, *.mp4               # Izlazni i privremeni video fajlovi
+├── VIDEOS/DNG/                # Ulazni folder .DNG slike
+├── *.yuv, *.mp4               # Izlazne i privremene video datoteke
 └── README.md
 ```
 

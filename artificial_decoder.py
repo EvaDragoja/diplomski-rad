@@ -217,7 +217,6 @@ if __name__ == "__main__":
     final_artificial_mp4_output = "final_artificial_output.mp4"
 
 
-    #encode_yuv_with_dec265(artificial_yuv_output, encoded_output_artificial)
     convert_artificial_mp4_to_yuv(input_mp4_file, encoded_yuv_artificial, "yuv422p")
     # For calculating number of frames since we don't have input folder with all the .DNG files
     frames = calculate_frames(encoded_yuv_artificial, width, height)

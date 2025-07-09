@@ -60,7 +60,7 @@ def upsample(img):
     return img_n
 
 
-def demosaick_wb_gamma(encoded_yuv_artificial, final_artificial_yuv_output, frames, height, width, gamma=2.2):
+def demosaick_wb_gamma(encoded_yuv_artificial, final_artificial_yuv_output, frames, height, width):
     yuv_file = open(final_artificial_yuv_output, 'wb')
     video = open(encoded_yuv_artificial, 'rb')
 
